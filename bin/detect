@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+main() {
+  echo "Gleam"
+  exit 0
+}
+
+main "$@"
