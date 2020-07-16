@@ -9,7 +9,7 @@ install_gleam() {
   asdf plugin-add gleam https://github.com/vic/asdf-gleam.git
   asdf install gleam 0.10.1
   asdf global gleam 0.10.1
-  ln -s $HOME/.asdf/shims/gleam /usr/bin/gleam
+  PATH=$PATH:$HOME/.asdf/shims/gleam
 }
 
 main() {
